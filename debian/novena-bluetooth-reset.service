@@ -1,0 +1,9 @@
+[Unit]
+Description=Reset bluetooth when Config is pressed
+
+[Service]
+Type=simple
+ExecStart=-/usr/sbin/novena-bluetooth-reset
+
+[Install]
+WantedBy=bluetooth.target

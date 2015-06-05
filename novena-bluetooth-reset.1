@@ -1,0 +1,16 @@
+.TH NOVENA-BLUETOOTH-RESET 1 "5 Jun 2015" Novena "Linux System Administration"
+.SH NAME
+novena-bluetooth-reset \- reset Bluetooth when Config button is pressed
+.SH SYNOPSIS
+.B novena-bluetooth-reset
+
+.SH DESCRIPTION
+.LP
+There is a curious case where, when left on its own for a while, the Bluetooth
+device will simply stop working.  The solution is to bring the HCI device down
+and then up again.  This utility monitors the Config button (front panel
+button), and performs this task when it detects a keydown.
+
+It is a hack.
+.SH AUTHORS
+Written by Sean Cross <xobs@kosagi.com>

@@ -1,0 +1,9 @@
+novena-bluetooth-reset
+
+There is a curious condition where, after being left alone for several hours,
+the Bluetooth keyboard stops working entirely.  The only solutions seem to
+be to reset the entire Bluetooth system, either through suspending and
+resuming the board, or restarting the HCI device.
+
+This program monitors the front-panel "User" button, and resets hci0 when
+it detects a keypress.

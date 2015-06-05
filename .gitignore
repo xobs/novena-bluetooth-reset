@@ -1,0 +1,9 @@
+/novena-bluetooth-reset
+*.swp
+*.swo
+*~
+/debian/*.debhelper
+/debian/files
+/debian/novena-bluetooth-reset
+/debian/novena-bluetooth-reset.debhelper.log
+/debian/novena-bluetooth-reset.substvars
